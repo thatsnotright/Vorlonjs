@@ -89,7 +89,8 @@ export module VORLON {
             
             // Cors
             var corsOptions = {
-                allowedHeaders: "*",
+                // allowedHeaders: "*",
+                origin: true,
                 exposedHeaders: ["X-VorlonProxyEncoding", "Content-Encoding", "Content-Length"]
             }; 
             app.use(cors(corsOptions));
