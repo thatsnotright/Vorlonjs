@@ -1,0 +1,10 @@
+declare var m: ExtendedMutationRecord;
+declare function closest(selector: string, node: Node, converter: Function): any;
+declare function matches(selector: string, node: any): any;
+declare function anyNodeInList(nodes: NodeList, match: Function, options: any): boolean;
+declare function anyNode(match: Function | string, options: any): any;
+declare function anyAddedNode(match: Function | string, options: any): boolean;
+declare function anyRemovedNode(match: Function | string, options: any): boolean;
+declare function attributeAdded(name: string): boolean;
+declare function attributeRemoved(name: string): boolean;
+declare function attributeChanged(name: string, options: any): boolean;
